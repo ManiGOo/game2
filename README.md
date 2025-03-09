@@ -1,12 +1,60 @@
-# React + Vite
+# 🎨 Etch-a-Sketch (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Etch-a-Sketch** grid built with **React** and **Tailwind CSS**. Users can draw by hovering over the squares, adjust the grid size using a slider, and clear the grid with a button.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Dynamic Grid**: Adjust the grid size from **2x2 to 64x64** using a slider.
+✅ **Hover Effect**: Random colors appear when hovering over squares.
+✅ **Progressive Darkening**: Each interaction darkens the square by 10% until it turns black.
+✅ **Clear Grid**: A button to reset the grid and start fresh.
+✅ **Smooth UI**: Styled with **Tailwind CSS** for a clean and subtle aesthetic.
+✅ **Responsive Design**: Works seamlessly on different screen sizes.
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/etch-a-sketch.git
+cd etch-a-sketch
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the Project
+```bash
+npm run dev
+```
+
+Your project will be live at **http://localhost:5173/** (or whichever port Vite assigns).
+
+## 🖌️ Usage Instructions
+
+1️⃣ **Adjust the Grid Size** using the slider.
+2️⃣ **Hover over squares** to change their colors randomly.
+3️⃣ **Keep hovering** to progressively darken the squares.
+4️⃣ Click **"Clear Grid"** to reset everything.
+
+## 📸 Preview
+
+![Etch-a-Sketch Preview](./screenshot.png) *(Add a screenshot here)*
+
+## 🎨 Tech Stack
+
+- **React** (Vite)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+
+## 🤝 Contributing
+Feel free to **fork** this project and submit **pull requests** if you have improvements!
+
+## 📝 License
+This project is open-source under the **MIT License**.
+
+---
+
+💡 *Built with ❤️ by [Chatgpt and Manigoo](https://github.com/Manigoo)*
+
